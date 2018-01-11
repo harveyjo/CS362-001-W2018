@@ -92,7 +92,7 @@ public class Appt implements  Comparable<Appt>{
     	this.startMinute = startMinute; 
     	this.startDay = startDay; 
     	this.startMonth = startMonth;
-    	this.startYear = startYear; 
+    	this.startYear = startMonth; 
         setTitle(title);
         setDescription(description);
    
