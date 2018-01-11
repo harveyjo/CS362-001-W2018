@@ -226,7 +226,7 @@ public class TimeTable {
 	    	   appointments should be placed in the kth position.
 	    	*/
 	    	LinkedList<Appt> apptsUpdatedList=new LinkedList<Appt>(appts);   
-	    	if(pv.length != appts.size())
+	    	if(pv.length != appts.size() - 1)
 	    	    throw new IllegalArgumentException();
 
 	    	int nexti =  0;
