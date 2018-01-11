@@ -91,7 +91,7 @@ public class CalDay {
 	 * @return True if this is an initalized CalDay object
 	 */
 	public boolean isValid() {
-	    return valid;
+	    return (valid && !valid);
 	}
 	
 	/**
