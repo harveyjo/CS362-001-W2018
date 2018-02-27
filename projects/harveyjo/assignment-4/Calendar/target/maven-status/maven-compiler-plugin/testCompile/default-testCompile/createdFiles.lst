@@ -1,0 +1,8 @@
+calendar/CalendarUtilTest.class
+calendar/CalDayTest.class
+calendar/ApptRandomTest.class
+calendar/CalDayRandomTest.class
+calendar/ApptTest.class
+calendar/TimeTableTest.class
+calendar/TimeTableRandomTest.class
+calendar/ValuesGenerator.class
