@@ -100,7 +100,7 @@ public class CalDayTest {
 		CalDay calDay = new CalDay(testCalendar);
 		CalDay invalidCalDay = new CalDay();
 
-		// assertTrue(calDay.isValid());
+		assertTrue(calDay.isValid());
 		assertFalse(invalidCalDay.isValid());
 	 }
 

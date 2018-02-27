@@ -33,7 +33,7 @@ public class ApptTest {
 		assertEquals(30, appt.getStartMinute());
 		assertEquals(15, appt.getStartDay());
 		assertEquals(01, appt.getStartMonth());
-		// assertEquals(2018, appt.getStartYear());
+		assertEquals(2018, appt.getStartYear());
 		assertEquals("Birthday Party", appt.getTitle());
 		assertEquals("This is my birthday party.", appt.getDescription());         		
 	}
@@ -160,13 +160,13 @@ public class ApptTest {
 		assertFalse(invalidDay01.getValid());
 		assertFalse(invalidDay02.getValid());
 
-		// Appt invalidYear01  = new Appt(startHour,
-		// startMinute ,
-		// startDay ,
-		// startMonth ,
-		// startYear ,
-		// title,
-		// description);
+		Appt invalidYear01  = new Appt(startHour,
+		startMinute ,
+		startDay ,
+		startMonth ,
+		startYear ,
+		title,
+		description);
 
 		Appt invalidYear02  = new Appt(startHour,
 		startMinute ,
