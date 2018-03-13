@@ -1,0 +1,4 @@
+1.	A bug in isLeapYear() in CalendarUtil found by my testIsLeapYear
+2.	A bug in TimeTable() constructor that raised a DateOutOfRangeException found by my TimeTable random test
+3.	A bug in setAppt() in CalDay, found by my CalDay test.
+
